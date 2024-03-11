@@ -1,11 +1,21 @@
 package other.one;
 
+import java.util.Scanner;
+
 public class Main {
     static int a = 0;
+    static int num1 = 0;
+    static int num2 = 0;
+    static int id = 0;
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        num1 = sc.nextInt();
+        num2 = sc.nextInt();
+        id = sc.nextInt();
         //在此输入您的代码...
-        dfs(9,16,1);
+        dfs(num1,num2,id);
         System.out.println(a);
+        sc.close();
     }
 
     //num1 1号糖果剩余
