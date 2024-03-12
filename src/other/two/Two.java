@@ -7,8 +7,6 @@ public class Two {
         System.out.println(s);
     }
 }
-
-
 class Solution {
     String s;
     int n;
@@ -41,6 +39,5 @@ class Solution {
 
         }
         return res.toString();
-
     }
 }
