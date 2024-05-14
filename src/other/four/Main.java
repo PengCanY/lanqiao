@@ -9,7 +9,7 @@ public class Main {
         if (nums == null || nums.length == 0) {
             return 0; // 返回0表示没有连续子集
         }
-
+        //无序且唯一
         Set<Integer> numSet = new HashSet<>(nums.length);
         for (int num : nums) {
             numSet.add(num);
